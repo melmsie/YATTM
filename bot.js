@@ -44,7 +44,7 @@ async function dbCheck(r) {
       r.tableCreate('yattmUsers').run()
     })
     let guilds = await r.table('yattmGuilds').catch(()=>{
-        console.log('my user table!!!!')
+        console.log('my guild table!!!!')
       r.tableCreate('yattmGuilds').run()
     })
 }
