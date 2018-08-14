@@ -1,0 +1,11 @@
+{
+  "id": 0,
+  "total": 0,
+  "guilds": {
+    "guildID": {
+      "last": "timestamp",
+      "total": 0
+    }
+  },
+  "settings": {}
+}

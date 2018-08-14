@@ -1,0 +1,27 @@
+{
+  "name": "yattm",
+  "version": "0.0.1",
+  "description": "YATTM - \"You all talk too much\" | A discord bot to track message activity in a server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melmsie/YATTM.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Melmsie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melmsie/YATTM/issues"
+  },
+  "homepage": "https://github.com/melmsie/YATTM#readme",
+  "dependencies": {
+    "eris": "github:abalabahaha/eris#dev",
+    "rethinkdbdash": "^2.3.31"
+  }
+}
