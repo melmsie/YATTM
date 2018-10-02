@@ -38,13 +38,13 @@ bot.on('error', (error) => {
 
 bot.connect()
 
-async function dbCheck(r) {
-    let users = await r.table('yattmUsers').catch(()=>{
-        console.log('my user table!!!!')
-      r.tableCreate('yattmUsers').run()
-    })
-    let guilds = await r.table('yattmGuilds').catch(()=>{
-        console.log('my guild table!!!!')
-      r.tableCreate('yattmGuilds').run()
-    })
+function dbCheck(r) {
+  r.table('yattmUsers').catch(() => {
+    console.log('my user table!!!!')
+    r.tableCreate('yattmUsers').run()
+  })
+  r.table('yattmGuilds').catch(() => {
+    console.log('my guild table!!!!')
+    r.tableCreate('yattmGuilds').run()
+  })
 }
